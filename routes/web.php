@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UserManagementController;
 
 /*
@@ -22,7 +23,7 @@ Route::view('/', 'auth.login')->name('login_1');
 
 Auth::routes();
 
-Route::get('/home', [HomeController::class, 'index'])->name('home')->middleware('auth');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 Route::get('/logout', [LoginController::class, 'logout'])->middleware('auth');
 
 Route::get('/user', [UserManagementController::class, 'index'])->name('user')->middleware('auth');
@@ -30,3 +31,7 @@ Route::post('/user/add', [UserManagementController::class, 'store'])->name('user
 Route::get('/user/edit/{id}', [UserManagementController::class, 'edit'])->name('user.edit')->middleware('auth');
 Route::post('/user/update', [UserManagementController::class, 'update'])->name('user.update')->middleware('auth');
 Route::get('/user/delete/{id}', [UserManagementController::class, 'delete'])->name('user.delete')->middleware('auth');
+
+
+// zn
+Route::get('/report', [ReportController::class, 'report'])->name('report');

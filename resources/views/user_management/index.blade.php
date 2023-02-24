@@ -293,7 +293,7 @@
         var line_id = button.data('line_id');
         var remark = button.data('remark');
         var active_status = button.data('active_status');
-        // alert(active_status);
+        alert(line_id);
 
         var modal = $(this);
 
