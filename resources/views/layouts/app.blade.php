@@ -103,22 +103,35 @@
 
 
     <script type="text/javascript">
-        $(function () {
-        $("#example1").DataTable({
-          "responsive": true, "lengthChange": false, "autoWidth": false,
-          "buttons": [ "excel", "pdf"]
-        }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
-        $('#example2').DataTable({
-          "paging": true,
-          "lengthChange": false,
-          "searching": false,
-          "ordering": true,
-          "info": true,
-          "autoWidth": false,
-          "responsive": true,
-        });
-      });
-    </script>
+    //     $(function () {
+    //     $("#example1").DataTable({
+    //       "responsive": true, "lengthChange": false, "autoWidth": false,
+    //       "buttons": [ "excel", "pdf"]
+    //     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    //     $('#example2').DataTable({
+    //       "paging": true,
+    //       "lengthChange": false,
+    //       "searching": false,
+    //       "ordering": true,
+    //       "info": true,
+    //       "autoWidth": false,
+    //       "responsive": true,
+    //     });
+    //   });
+
+
+     //Date picker
+     $('#reservationdate').datetimepicker({
+        format: 'L'
+    });
+
+
+
+var dt = new Date().toLocaleDateString("de-DE");
+document.getElementById('date-time').innerHTML=dt;
+</script>
+
+
 </body>
 
 </html>
