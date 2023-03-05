@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\LoginController;
 use Illuminate\Support\Facades\Auth;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\OnelineController;
 use App\Http\Controllers\ReportController;
 use App\Http\Controllers\UserManagementController;
 
@@ -35,3 +36,4 @@ Route::get('/user/delete/{id}', [UserManagementController::class, 'delete'])->na
 
 // zn
 Route::get('/report', [ReportController::class, 'report'])->name('report');
+Route::get('/one_line', [OnelineController::class, 'oneline'])->name('oneline');

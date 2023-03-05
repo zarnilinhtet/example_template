@@ -1,0 +1,139 @@
+<table class="table table_main  ml-4">
+                    <thead>
+                        <tr class=" text-center p-0">
+                            <th class="border-0 "></th>
+                            <th class="border-0 p-0" style="width:20px"></th>
+                            <th class="border-0 pd_oneline" style="">Present</th>
+                            <th class="border-0 p-0" style="width:20px"></th>
+                            <th class="border-0 pd_oneline">Daily</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class=" tp_oneline">
+                        <tr>
+                            <td class="border-0"></td>
+                        </tr>
+                        <td id="target_oneline">
+                            Target
+                        </td>
+                        <td class="border-0 "></td>
+
+                        <td id="target_oneline" style="font-size:65px ">120</td>
+                        <td class="border-0 "></td>
+
+                        <td id="target_oneline">Ottoq</td>
+                        </tr>
+                        <tr class=" tp_oneline">
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <td id="target_oneline">Production</td>
+                        <td class=" border-0 "></td>
+                        <td id="target_oneline" style="font-size:65px ">106</td>
+                        <td class="border-0 "></td>
+                        <td id="target_oneline">Thornton</td>
+
+                        </tr>
+                        <tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <td class="percentage_oneline ">Percentage</td>
+                        <td class="border-0"></td>
+                        <td class=" percentage_oneline" style="font-size: 65px">88%</td>
+                        <td class="border-0"></td>
+                        <td class="text-center percentage_oneline">Thornton</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+                </div>
+                {{-- End present/Daily Table --}}
+
+                {{-- End Row table --}}
+
+                {{-- <div class="col-md-6 ">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th colspan="4" class="text-center " style="">88%</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="">
+                                <td>Rank</td>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>Otto </td>
+
+                            </tr>
+
+
+                        </tbody>
+                    </table> --}}
+                    {{-- End Row table --}}
+                    {{--
+                </div>
+                </div> --}}
+
+.pd_oneline {
+font-size: 60px;
+background-color: #EA6153;
+color: white;
+}
+
+.line_oneline {
+position: relative;
+color: #0070C0;
+font-size: 110px;
+font-weight: 700;
+margin-top: -140px;
+margin-left: 650px;
+
+}
+
+.rank_oneline {
+position: relative;
+font-size: 150px;
+font-weight: 700;
+margin-left: 730px;
+margin-top: -60px;
+}
+
+.pd_oneline {
+font-size: 60px;
+background-color: #EA6153;
+color: white;
+position: relative;
+}
+
+.table_main {
+font-size: 50px;
+}
+
+#target_oneline {
+
+    background-color: #E9E9E9;
+    text-align: center;
+    /* font-size: 60px; */
+
+}
+
+.table td, .table th {
+padding: 5px;
+
+}
+
+.percentage_oneline {
+
+    background-color: #2980B9;
+    color: white;
+    text-align: center;
+
+    /* line-height: -7px; */
+
+}

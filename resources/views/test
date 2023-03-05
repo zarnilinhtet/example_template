@@ -1,69 +1,41 @@
- <div class="table-responsive">
-                                <div class="card-body ">
-                                    <button type="button" class="btn btn-primary">Edit</button>
-                                    <table id="example1" class="table table-bordered table-striped mt-5">
+ <table class="m-auto text-center w-100 table table-bordered custom-table-border-color">
 
-                                        <thead>
-                                            <tr class="report_table">
-                                                <th scope="col">Line</th>
-                                                <th>Buyer</th>
-                                                <th>Style No.#</th>
-                                                <th>Item</th>
+                        <tbody >
 
-                                                <th>Target</th>
-                                                <th>Manpower</th>
-                                                <th>Output </th>
-                                                <th>%</th>
-                                                <th>Q'ty</th>
-                                                <th>Input</th>
-                                                <th>Total</th>
-                                                <th>Output</th>
-                                                <th>Total</th>
-                                                <th>CMP($)</th>
-                                                <th>Daily CMP income</th>
-                                                <th> Inline</th>
-                                                <th> H/over</th>
+                            <tr>
+                                <td>
 
-                                                <th> Total</th>
-                                                <th> H/over balance</th>
-                                                <th>
-                                                    <table class="table table-bordered text-white m-0">
-                                                        <thead>
-                                                            <th scope="col">S,L,Adm Op</th>
-                                                            <th scope="col">Hp</th>
-                                                        </thead>
-                                                    </table>
-                                                </th>
-                                                <th> Time</th>
-                                                <th> CMP / hr</th>
-                                                <th> CMP / hr / PS</th>
-                                                <th> Remark</th>
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+
+                                </td>
+                                <td>
+
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tbody>
+                            <tr>
+                                <td </td>
+                                <td ></td>
+                            </tr>
+                            <tr>
+                                <td  colspan="2"></td>
+                            </tr>
+                            <tr>
+                                <td ></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td  colspan="2"></td>
+                            </tr>
+                        </tbody>
 
 
-
-                                               <!-- buyer -->
-
-                                        <tbody class="text-center ">
-                                          <tr >
-                                                <th scope="row " rowspan="2">1</th>
-                                                <td class="border border-secondary">-</td>
-                                                <td class="border border-secondary">-</td>
-                                                <td class="border border-secondary">-</td>
-                                                <!-- <td>200</td>
-                                                <td>
-                                                    Test
-                                                </td>
-                                                 <td>20</td>
-                                                  <td>10%</td> -->
-
-                                            </tr>
-                                            <tr>
-
-                                                <td class="border border-secondary">Next</td>
-                                                <td class="border border-secondary">2011C</td>
-                                                <td class="border border-secondary">@fat</td>
-                                            </tr>
-
-                                        </tbody>
-
-                                    </table>
+                    </table>

@@ -102,13 +102,11 @@
     <script src="{{ asset('dist/js/pages/dashboard.js') }}"></script>
 
 
-    {{-- test --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.8/xlsx.full.min.js"></script>
 
 
 
 
-    {{-- test end --}}
+
 
     <script type="text/javascript">
 
